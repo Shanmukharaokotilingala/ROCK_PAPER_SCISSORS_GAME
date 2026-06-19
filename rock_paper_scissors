@@ -1,0 +1,16 @@
+import random
+
+choices = ["rock","paper","scissors"]
+
+user = input("enter rock,paper,scissor : ")
+computer = random.choice(choices)
+print("your chose",user)
+print("computer choice",computer)
+
+if user == computer:
+    print("tie.......")
+elif ( user =='rock' and computer == 'scissors')or (user == 'paper' and computer == 'rock') or (user == 'scissors' and computer == 'paper') :
+    print("you win 💕")
+else:
+    print("computer win 😢")
+
