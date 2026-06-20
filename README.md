@@ -18,4 +18,21 @@ A simple console-based Rock Paper Scissors game built in Python, where the user 
 3. When prompted, type `rock`, `paper`, or `scissors` and press Enter
 
 ## Example
+enter rock,paper,scissor : rock
+
+your chose rock
+
+computer choice scissors
+
+you win 💕
+
+
+## Built with
+
+- Python
+- `random` module
+
+## Author
+
+Built by Shanmukha as a beginner project to practice Python conditionals and the random module.
  
